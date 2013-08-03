@@ -3,3 +3,9 @@
         padding-top: 100px;
     }
 }
+
+a.brand {
+    background-image: url("/images/CoderDojoChiba_m.png");
+    background-position: 0px 10px;
+    background-repeat: no-repeat;
+}
