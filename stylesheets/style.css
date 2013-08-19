@@ -9,3 +9,12 @@ a.brand {
     background-position: 0px 10px;
     background-repeat: no-repeat;
 }
+
+.photo {
+    text-align: center;
+}
+
+.photo img {
+    border-radius: 10px;
+    margin: 10px;
+}
