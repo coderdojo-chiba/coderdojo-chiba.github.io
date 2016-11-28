@@ -1,16 +1,16 @@
 ---
 layout: default
-title: 開催レポート - 千葉市中央区のプログラミング教室 CoderDojo Chiba
+title: 開催レポート
 ---
 
 <section id="jumbotron subhead">
-
+  {% assign report_pages = site.pages | sort: 'date', 'last' | where_exp: "page", "page.url contains '/report/'"  %}
   <h2>開催レポート</h2>
   <ul>
-    <li><a href="report/5.html">第5回 開催レポート</a></li>
-    <li><a href="report/0.html">第0回 開催レポート</a></li>
+    {% for page in report_pages %}
+    <li><a href="{{page.url | relative_url }}">{{ page.title | escape }} ({{page.date}})</a></li>
+    {% endfor %}
   </ul>
-
   <div class="row photo">
     <img src="images/header.jpg" alt="第0回の様子">
   </div>
