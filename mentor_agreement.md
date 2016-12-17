@@ -3,7 +3,10 @@ layout: default
 title: メンター・支援者同意書
 ---
 
-# メンター・支援者合意書
+# メンター・支援者同意書
+
+CoderDojo Chiba へメンター・支援者として参加する場合は、以下の文章に同意する必要があります。
+合意は、[合意フォーム](https://docs.google.com/forms/d/e/1FAIpQLSehlsacCTUIEeM9UWX3ij-n42v-C1pjRurbaFiz0oYpvj4Khg/viewform) から行ってください。
 
 私は、CoderDojo Chiba において、メンターまたは支援者として活動に参加するにあたり、以下の点に同意します。
 
