@@ -35,7 +35,7 @@ CoderDojo Chibaが行う活動記録や広報のための行動に協力しま�
 
 ## その他依頼事項
 
-- メンター・支援者として継続的に参加する場合、[ボランティア活動保険](https://www.fukushihoken.co.jp/fukushi/front/council/volunteer_activities.html)への加入を依頼しております。(年300円)
+- メンター・支援者として継続的に参加する場合、[ボランティア活動保険](https://www.fukushihoken.co.jp/fukushi/front/council/volunteer_activities.html)への加入を依頼しております。(年650円)
 
 ## 備考
 
