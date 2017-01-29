@@ -4,11 +4,11 @@ title: 開催レポート
 ---
 
 <section id="jumbotron subhead">
-  {% assign report_pages = site.pages | sort: 'date', 'last' | where_exp: "page", "page.url contains '/report/'"  %}
+  {% assign report_pages = site.pages | where_exp: "page", "page.url contains '/report/'" | sort: 'date' %}
   <h2>開催レポート</h2>
 
   <ul>
-    {% for page in report_pages %}
+    {% for page in report_pages reversed %}
     <li><a href="{{page.url | relative_url }}">{{ page.title | escape }} ({{page.date}})</a></li>
     {% endfor %}
   </ul>
